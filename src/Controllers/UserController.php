@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers; // Namespace actualizado
+namespace App\Controllers;
 
 class UserController {
     public function index() {

@@ -10,7 +10,7 @@ class Request {
     public function __construct() {
         $this->method = $_SERVER['REQUEST_METHOD'];
         $this->uri = $_SERVER['REQUEST_URI'];
-        $this->parameters = $_REQUEST; // Esto captura todos los parámetros GET y POST
+        $this->parameters = $_REQUEST; 
     }
 
     public function method() {
